@@ -25,4 +25,16 @@ header {
 
 #main-div {
   width: 250px;
+  height: 300px;
+}
+
+/* list items */
+
+li {
+  list-style: none;
+}
+
+#delete-button,
+#edit-button {
+  float: right;
 }
