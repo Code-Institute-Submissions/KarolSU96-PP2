@@ -1,7 +1,7 @@
 /* Import Bitter font from googlefonts */
 @import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
 
-/* Standard styling for every page */
+/* General styles to the whole page */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,18 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Styles for particular elements */
+
+header {
+  margin: 15% 0 50px;
+}
+
+#main-div {
+  width: 250px;
 }
