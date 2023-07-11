@@ -26,6 +26,8 @@ header {
 #main-div {
   width: 250px;
   height: 300px;
+  border-radius: 10px;
+  padding: 8px;
 }
 
 /* list items */
