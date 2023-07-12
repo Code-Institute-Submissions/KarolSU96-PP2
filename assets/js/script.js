@@ -14,6 +14,14 @@ addButton.addEventListener("click", function () {
     let deleteIcon = document.createElement("i");
     deleteIcon.classList.add("fa-solid", "fa-xmark");
 
+    deleteButton.appendChild(deleteIcon);
+
+    let editButton = document.createElement("button");
+    editButton.textContent = "Edit";
+
+    li.appendChild(deleteButton);
+    li.appendChild(editButton);
+
     li.textContent = task;
 
     ul[0].appendChild(li);
