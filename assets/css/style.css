@@ -15,12 +15,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  background-image: url(../images/pexels-stephan-seeber-1261728.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Styles for particular elements */
 
 header {
-  margin: 15% 0 50px;
+  margin: 10% 0 50px;
 }
 
 #main-div {
@@ -46,4 +50,11 @@ li {
 #delete-button,
 #edit-button {
   float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border: 2px solid red;
+  width: 100%;
 }
