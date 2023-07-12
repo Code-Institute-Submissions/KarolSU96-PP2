@@ -15,10 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  background-image: url(../images/pexels-stephan-seeber-1261728.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffe9d6;
 }
 
 /* Styles for particular elements */
@@ -58,4 +55,6 @@ footer {
   bottom: 0;
   border: 2px solid red;
   width: 100%;
+  height: 100px;
+  text-align: center;
 }
