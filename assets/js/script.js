@@ -10,6 +10,10 @@ addButton.addEventListener("click", function () {
   } else {
     let li = document.createElement("li");
 
+    let deleteButton = document.createElement("button");
+    let deleteIcon = document.createElement("i");
+    deleteIcon.classList.add("fa-solid", "fa-xmark");
+
     li.textContent = task;
 
     ul[0].appendChild(li);
