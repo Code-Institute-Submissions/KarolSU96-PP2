@@ -35,3 +35,14 @@ addButton.addEventListener("click", function () {
     input.value = "";
   }
 });
+
+// deleteting the notes
+let deleteTask = document.getElementsByClassName("delete-button");
+
+let liElement = document.getElementsByTagName("li");
+
+for (let i = 0; i < deleteTask.length; i++) {
+  deleteTask[i].addEventListener("click", function () {
+    liElement.remove();
+  });
+}
