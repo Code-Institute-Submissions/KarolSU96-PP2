@@ -13,6 +13,8 @@ addButton.addEventListener("click", function () {
   } else {
     let li = document.createElement("li");
 
+    document.body.appendChild(li);
+
     let deleteButton = document.createElement("button");
     let deleteIcon = document.createElement("i");
     deleteIcon.classList.add("fa-solid", "fa-xmark");
@@ -22,11 +24,9 @@ addButton.addEventListener("click", function () {
     let editButton = document.createElement("button");
     editButton.textContent = "Edit";
 
+    li.textContent = task;
     li.appendChild(deleteButton);
     li.appendChild(editButton);
-
-    li.textContent = task;
-
     ul[0].appendChild(li);
 
     input.value = "";
