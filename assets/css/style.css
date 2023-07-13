@@ -43,11 +43,17 @@ input {
 
 li {
   list-style: none;
+  position: relative;
 }
 
-#delete-button,
-#edit-button {
-  float: right;
+.delete-button {
+  position: absolute;
+  right: 0;
+}
+
+.edit-button {
+  position: absolute;
+  right: 15px;
 }
 
 footer {
