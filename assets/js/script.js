@@ -1,10 +1,13 @@
+// declaring variables
 let input = document.getElementById("new-task");
 let addButton = document.getElementById("add-button");
 let ul = document.getElementsByTagName("ul");
 
+// function that takes the value from input field and puts it as a new task
 addButton.addEventListener("click", function () {
   let task = input.value;
 
+  // If the task has no value it should prompt user to write something
   if (!task) {
     alert("Please enter your tast before adding it");
   } else {
