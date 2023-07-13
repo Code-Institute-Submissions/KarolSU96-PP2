@@ -24,6 +24,9 @@ addButton.addEventListener("click", function () {
     let editButton = document.createElement("button");
     editButton.textContent = "Edit";
 
+    editButton.setAttribute("id", "edit-button");
+    deleteButton.setAttribute("id", "delete-button");
+
     li.textContent = task;
     li.appendChild(deleteButton);
     li.appendChild(editButton);
