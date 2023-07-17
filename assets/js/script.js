@@ -1,7 +1,7 @@
 // declaring variables
 let input = document.getElementById("new-task");
 let addButton = document.getElementById("add-button");
-let ul = document.getElementsByTagName("ul");
+let ul = document.getElementsByTagName("ul")[0];
 
 // function that takes the value from input field and puts it as a new task
 addButton.addEventListener("click", function () {
@@ -10,6 +10,10 @@ addButton.addEventListener("click", function () {
   // If the task has no value it should prompt user to write something
   if (!task) {
     alert("Please enter your tast before adding it");
+  }
+  if (ul.childElementCount >= 13) {
+    alert("You have reached the maximum number of tasks");
+    return; // Stop execution if the maximum limit is reached
   } else {
     let li = document.createElement("li");
 
@@ -30,7 +34,7 @@ addButton.addEventListener("click", function () {
     li.textContent = task;
     li.appendChild(deleteButton);
     li.appendChild(editButton);
-    ul[0].appendChild(li);
+    ul.appendChild(li);
 
     input.value = "";
   }
