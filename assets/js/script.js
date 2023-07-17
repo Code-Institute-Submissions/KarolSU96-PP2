@@ -36,7 +36,8 @@ addButton.addEventListener("click", function () {
   }
 });
 
-// deleteting the notes
+/* deleteting the notes. Method searsched for class "delete-button"
+ if the element with this class is clicked it removes its parent li element. */
 document.addEventListener("click", function (event) {
   if (event.target.classList.contains("delete-button")) {
     let listItem = event.target.closest("li");
