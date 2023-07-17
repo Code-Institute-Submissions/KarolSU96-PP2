@@ -68,3 +68,7 @@ footer {
 i {
   pointer-events: none;
 }
+
+.completed {
+  text-decoration: line-through;
+}
