@@ -43,6 +43,17 @@ document.addEventListener("click", function (event) {
     let listItem = event.target.closest("li");
     if (listItem) {
       listItem.remove();
+    } /* else if edit-button is cliked- it prompts user to enter a new text.
+        Ensures that there are no whilespaces and replaces the task with prompted text. */
+  } else if (event.target.classList.contains("edit-button")) {
+    let listItem = event.target.closest("li");
+    if (listItem) {
+      let text = listItem.firstChild.textContent.trim();
+      let newText = prompt("Enter new text:", text);
+      //modifies text content only if user  writes something. Wont engage if there's nothing written.
+      if (newText !== null && newText.trim() !== "") {
+        listItem.firstChild.textContent = newText;
+      }
     }
   }
 });
