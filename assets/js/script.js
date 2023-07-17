@@ -62,6 +62,7 @@ document.addEventListener("click", function (event) {
   }
 });
 
+// clicking on a li element crosses it out, marking completed task
 ul.addEventListener("click", function (event) {
   if (event.target.tagName === "LI") {
     event.target.classList.toggle("completed");
