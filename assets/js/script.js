@@ -37,12 +37,10 @@ addButton.addEventListener("click", function () {
 });
 
 // deleteting the notes
-let deleteTask = document.getElementsByClassName("delete-button");
+let deleteButtons = document.getElementsByClassName("delete-button");
 
-let liElement = document.getElementsByTagName("li");
-
-for (let i = 0; i < deleteTask.length; i++) {
-  deleteTask[i].addEventListener("click", function () {
-    liElement.remove();
+for (let i = 0; i < deleteButtons.length; i++) {
+  deleteButtons[i].addEventListener("click", function (event) {
+    event.target.parentNode.remove();
   });
 }
