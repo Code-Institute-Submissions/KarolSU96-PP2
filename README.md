@@ -1,6 +1,7 @@
 # To- Do Lit Website!
 
-This website allows users to write their to-do list.
+This website allows users to add, delete and mark tasks as completed.
+It provides a user-friendly interaface for managing tasks and keepung track of which of them are completed.
 
 Website Link:
 
@@ -8,9 +9,6 @@ GitHub Repo:
 
 ## Table of Contents
 
-[Description](#description)
+[Features](#features)
 
-## Desctiption
-
-This to-do list webstie helps it's users stay oranised. It allows them to add, edit and delete tasks. They can even mark task as completed by clicking on it so it gets crossed out.
-It has minimal styling, allowing by it the users to focus on completing their tasks.
+## Features
