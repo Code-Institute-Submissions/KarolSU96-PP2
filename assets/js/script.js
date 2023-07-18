@@ -37,6 +37,7 @@ addButton.addEventListener("click", function () {
     ul.appendChild(li);
 
     input.value = "";
+    tasksCounter();
   }
 });
 
@@ -71,12 +72,10 @@ ul.addEventListener("click", function (event) {
 
 let tasksNumber = document.getElementsByTagName("li");
 
+// Counts number of added tasks
 function tasksCounter() {
-  let counter = 0;
-  for (i = 0; i < tasksNumber.length; i++) {
-    counter++;
-  }
-  return counter;
+  let oldTaskNumber = parseInt(
+    document.getElementById("tasks-number").innerText
+  );
+  document.getElementById("tasks-number").innerText = ++oldTaskNumber;
 }
-
-console.log(tasksCounter());
