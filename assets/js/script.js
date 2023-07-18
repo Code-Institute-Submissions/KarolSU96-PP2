@@ -68,3 +68,15 @@ ul.addEventListener("click", function (event) {
     event.target.classList.toggle("completed");
   }
 });
+
+let tasksNumber = document.getElementsByTagName("li");
+
+function tasksCounter() {
+  let counter = 0;
+  for (i = 0; i < tasksNumber.length; i++) {
+    counter++;
+  }
+  return counter;
+}
+
+console.log(tasksCounter());
