@@ -24,6 +24,11 @@ header {
   margin: 10% 0 50px;
 }
 
+header img {
+  width: 32px;
+  height: 32px;
+}
+
 #main-div {
   width: 350px;
   height: 300px;
