@@ -37,7 +37,7 @@ addButton.addEventListener("click", function () {
     ul.appendChild(li);
 
     input.value = "";
-    tasksCounter();
+    addTasksCounter();
   }
 });
 
@@ -48,6 +48,7 @@ document.addEventListener("click", function (event) {
     let listItem = event.target.closest("li");
     if (listItem) {
       listItem.remove();
+      decreaseTasksCounter();
     } /* else if edit-button is cliked- it prompts user to enter a new text.
         Ensures that there are no whilespaces and replaces the task with prompted text. */
   } else if (event.target.classList.contains("edit-button")) {
@@ -55,7 +56,7 @@ document.addEventListener("click", function (event) {
     if (listItem) {
       let text = listItem.firstChild.textContent.trim();
       let newText = prompt("Enter new text:", text);
-      //modifies text content only if user  writes something. Wont engage if there's nothing written.
+      //modifies text content only if user  writes something. Won't engage if there's nothing written.
       if (newText !== null && newText.trim() !== "") {
         listItem.firstChild.textContent = newText;
       }
@@ -72,10 +73,18 @@ ul.addEventListener("click", function (event) {
 
 let tasksNumber = document.getElementsByTagName("li");
 
-// Counts number of added tasks
-function tasksCounter() {
+// Adds tasks to the couner
+function addTasksCounter() {
   let oldTaskNumber = parseInt(
     document.getElementById("tasks-number").innerText
   );
   document.getElementById("tasks-number").innerText = ++oldTaskNumber;
+}
+
+// Deletes task number from the counter
+function decreaseTasksCounter() {
+  let oldTaskNumber = parseInt(
+    document.getElementById("tasks-number").innerText
+  );
+  document.getElementById("tasks-number").innerText = --oldTaskNumber;
 }
