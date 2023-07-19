@@ -86,4 +86,4 @@ Let me take you through the process of deployment of this website:
 
 ## Improvement:
 
-- There is still room for improvment. In the future I would like to add a user profiles, which would save the tasks even after refreshing the page. User could then log with her/his login.
+- There is still room for improvment. In the future I would like to add a user profiles, which would save the tasks even after refreshing the page. User could then log in with her/his login and save their notes.
