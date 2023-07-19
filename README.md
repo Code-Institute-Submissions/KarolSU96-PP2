@@ -70,7 +70,7 @@ Let me take you through the process of deployment of this website:
 
 ## Bugs:
 
-Throughout the developlent process I struggled with delete function. Somehow my approach wasnt working or was not consistent. I figured out that it there must be someting going on with the icon, after carefully examining the page with Pesticide Chrome excension. I managed to find a thread on stack https://stackoverflow.com/questions/60692659/icon-makes-the-button-not-clickable and changed the pointer-events property to none.
+- Throughout the developlent process I struggled with delete function. Somehow my approach wasnt working or was not consistent. I figured out that it there must be someting going on with the icon, after carefully examining the page with Pesticide Chrome excension. I managed to find a thread on stack https://stackoverflow.com/questions/60692659/icon-makes-the-button-not-clickable and changed the pointer-events property to none.
 
 ## Credits:
 
@@ -85,4 +85,4 @@ asdasdsad
 
 ## Improvement:
 
-adsad
+- There is still room for improvment. In the future I would like to add a user profiles, which would save the tasks even after refreshing the page. User could then log with her/his login.
