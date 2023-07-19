@@ -74,6 +74,11 @@ Throughout the developlent process I struggled with delete function. Somehow my 
 
 ## Credits:
 
+- Notes Icon - Flaticon https://www.flaticon.com/free-icon/pencil_3075908?term=note&page=1&position=5&origin=tag&related_id=3075908
+- Github Icon - Fontawesome https://fontawesome.com/
+- Code Institute Tutors Team, which really helped me get through bugs. It really wouldn't be possible for me to make this project without them.
+- Tyler Potts Toutorial which helped me with prompting user for the input and idea for a project https://www.youtube.com/watch?v=MkESyVB4oUw&t=1362s
+
 ## Validators:
 
 asdasdsad
