@@ -9,7 +9,7 @@ addButton.addEventListener("click", function () {
 
   // If the task has no value it should prompt user to write something
   if (!task) {
-    alert("Please enter your tast before adding it");
+    alert("Please enter your task before adding it");
     return;
   }
   if (ul.childElementCount >= 13) {
