@@ -3,9 +3,9 @@
 This website allows users to add, delete and mark tasks as completed.
 It provides a user-friendly interaface for managing tasks and keepung track of which of them are completed.
 
-Website Link:
+Website Link: https://karolsu96.github.io/PP2/
 
-GitHub Repo:
+GitHub Repo: https://github.com/KarolSU96/PP2
 
 ## Table of Contents
 
@@ -81,7 +81,8 @@ Let me take you through the process of deployment of this website:
 
 ## Validators:
 
-asdasdsad
+- W3C validator shows no errors or warnings.
+- Jigsaw validator shows no errors or warnings.
 
 ## Improvement:
 
