@@ -72,8 +72,6 @@ ul.addEventListener("click", function (event) {
   }
 });
 
-let tasksNumber = document.getElementsByTagName("li");
-
 // Adds tasks to the couner
 function addTasksCounter() {
   let oldTaskNumber = parseInt(

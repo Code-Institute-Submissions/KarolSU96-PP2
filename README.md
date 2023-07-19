@@ -83,6 +83,7 @@ Let me take you through the process of deployment of this website:
 
 - W3C validator shows no errors or warnings.
 - Jigsaw validator shows no errors or warnings.
+- Lightnouse
 
 ## Improvement:
 
