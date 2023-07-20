@@ -12,6 +12,7 @@ GitHub Repo: https://github.com/KarolSU96/PP2
 [Features](#features)
 [Languages](#languages)
 [Deployment](#deployment)
+[Design](#design)
 [Bugs](#bugs)
 [Credits](#credits)
 [Validators](#validators)
@@ -73,14 +74,21 @@ Let me take you through the process of deployment of this website:
 1. Go to project's direcotry on Github.
 2. Click on "Settings".
 3. Scroll to the "GitHub Pages".
-4. Select Main as "Source"
+4. Select Main as "Source".
 5. Click save.
 6. The site link will be generated after a few minutes.
 
+## Design
+
+The website has simple design that helps it's users focus on the tasks. It uses the "Bitter" font imported from Google Fonts to provide good readability on screens and elegant style.
+Background color of the body is a soft peach which creates a warm and inviting atmosphere for the user.
+The header includes the title and a image from Flaticon in high resolution which looks aesthetically pleasing. The main section is styled with rounded corners and a delicate background for clean looks.
+The footer is fixed to the bottom of the page and contains link to my Github Page and takes the users to the Credit section.
+Icons from the Font Awesome are utilized to enchance the visual applear.
+
 ## Bugs:
 
-- Throughout the developlent process I struggled with delete function. Somehow my approach wasnt working or was not consistent. I figured out that it there must be someting going on with the icon, after carefully examining the page with Pesticide Chrome excension. I managed to find a thread on stack https://stackoverflow.com/questions/60692659/icon-makes-the-button-not-clickable and changed the pointer-events property to none.
--
+Throughout the developlent process I struggled with delete function. Somehow my approach wasnt working or was not consistent. I figured out that it there must be someting going on with the icon, after carefully examining the page with Pesticide Chrome excension. I managed to find a thread on stack https://stackoverflow.com/questions/60692659/icon-makes-the-button-not-clickable and changed the pointer-events property to none.
 
 ## Credits:
 
