@@ -20,19 +20,28 @@ GitHub Repo: https://github.com/KarolSU96/PP2
 ## Features
 
 - ### Crate a task
-- Add a new task by entering it in the input field and clicking on "Add" button.
+  // image
+- As a user, I want to be able to add a new task to my task list. When I enter the task descripton in the input field, I expect to see the "Add" button, which I can click to add the task to the list. The website allows the user to be intentional with tak descriptions. Locking the number of letters to 30.
 
 - ### Delete a task
-- Click on the "x" to delete the desired task.
+  // image
+- As a user, i want to easily remove unwanted tasks from my list. By clicking on the "X" button associated with each task, I expect the desired task to be promptly deleted from the list.
 
 - ### Mark as completed
-- Click on the task to cross it out and mark it as completed.
+  // image
+- As a user, I want to keep track of completed tasks. When I click on a task in the list, I expect it to be visually crossed out, indicating that it has been marked as completed.
 
 - ### Edit a task
-- Use the "Edit" button to change the task. The new task can be then added in popup box.
+  // image
+- As a user, I want to be able to modify tasks. When I click on the "Edit" button associated with a task, I expect to be able to edit this task. The popup box allows me to edit the desired task and save it.
 
 - ### Display the total number of tasks
-- Total number of tasks is dynamically updated as tasks are added or removed.
+  // image
+- As a user, I want to know the total number of tasks in my list. I expect the number of tasks to be displayer prominently on the page. The counter should be automatically updated whenever I add or remove tasks.
+
+- ### Lock the number of tasks to 13
+  // image
+- As a user, I want to be sure that my task list remains managable and doesn't become overwhelming. I also expect the tasks to not shoot through the designed list. If I attempt to add the 14th task, I should receive a clear indication that the maximum limit has been reached.
 
 ## Languages:
 
@@ -71,6 +80,7 @@ Let me take you through the process of deployment of this website:
 ## Bugs:
 
 - Throughout the developlent process I struggled with delete function. Somehow my approach wasnt working or was not consistent. I figured out that it there must be someting going on with the icon, after carefully examining the page with Pesticide Chrome excension. I managed to find a thread on stack https://stackoverflow.com/questions/60692659/icon-makes-the-button-not-clickable and changed the pointer-events property to none.
+-
 
 ## Credits:
 
@@ -83,8 +93,11 @@ Let me take you through the process of deployment of this website:
 
 - W3C validator shows no errors or warnings.
 - Jigsaw validator shows no errors or warnings.
-- Lightnouse
+- Jshint is all good. It shows 15 warnings which are caused by me using let variable. It's not a problem as I use ES6.
 
 ## Improvement:
 
 - There is still room for improvment. In the future I would like to add a user profiles, which would save the tasks even after refreshing the page. User could then log in with her/his login and save their notes.
+
+// add layout and design section.
+//
