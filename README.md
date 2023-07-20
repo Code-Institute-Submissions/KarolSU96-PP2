@@ -1,5 +1,6 @@
 # To- Do Lit Website!
 
+![Website](./readme-images/page.png)
 This website allows users to add, delete and mark tasks as completed.
 It provides a user-friendly interface for managing tasks and keeping track of which of them are completed.
 
