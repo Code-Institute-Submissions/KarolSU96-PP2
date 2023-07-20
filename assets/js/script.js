@@ -29,6 +29,8 @@ addButton.addEventListener("click", function () {
     let editButton = document.createElement("button");
     editButton.textContent = "Edit";
 
+    editButton.setAttribute("alt", "Edit Button");
+    deleteButton.setAttribute("alt", "Delete Button");
     editButton.setAttribute("class", "edit-button");
     deleteButton.setAttribute("class", "delete-button");
 
