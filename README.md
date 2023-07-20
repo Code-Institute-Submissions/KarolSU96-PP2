@@ -106,6 +106,3 @@ Throughout the developlent process I struggled with delete function. Somehow my 
 ## Improvement:
 
 - There is still room for improvment. In the future I would like to add a user profiles, which would save the tasks even after refreshing the page. User could then log in with her/his login and save their notes.
-
-// add layout and design section.
-//
