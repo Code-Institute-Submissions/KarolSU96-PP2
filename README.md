@@ -1,4 +1,4 @@
-# To- Do Lit Website!
+# To-Do List Website!
 
 ![Website](./readme-images/page.png)
 This website allows users to add, delete and mark tasks as completed.
