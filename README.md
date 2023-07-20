@@ -21,28 +21,33 @@ GitHub Repo: https://github.com/KarolSU96/PP2
 ## Features
 
 - ### Crate a task
+
   ![Create Feature](./readme-images/create.png)
-- As a user, I want to be able to add a new task to my task list. When I enter the task descripton in the input field, I expect to see the "Add" button, which I can click to add the task to the list. The website allows the user to be intentional with tak descriptions. Locking the number of letters to 30.
+  As a user, I want to be able to add a new task to my task list. When I enter the task descripton in the input field, I expect to see the "Add" button, which I can click to add the task to the list. The website allows the user to be intentional with tak descriptions. Locking the number of letters to 30.
 
 - ### Delete a task
+
   ![Delte Feature](./readme-images/delete.png)
-- As a user, i want to easily remove unwanted tasks from my list. By clicking on the "X" button associated with each task, I expect the desired task to be promptly deleted from the list.
+  As a user, i want to easily remove unwanted tasks from my list. By clicking on the "X" button associated with each task, I expect the desired task to be promptly deleted from the list.
 
 - ### Mark as completed
+
   ![Mark Task Feature](./readme-images/mark.png)
-- As a user, I want to keep track of completed tasks. When I click on a task in the list, I expect it to be visually crossed out, indicating that it has been marked as completed.
+  As a user, I want to keep track of completed tasks. When I click on a task in the list, I expect it to be visually crossed out, indicating that it has been marked as completed.
 
 - ### Edit a task
+
   ![Edit Task Feature](./readme-images/edit.png)
-- As a user, I want to be able to modify tasks. When I click on the "Edit" button associated with a task, I expect to be able to edit this task. The popup box allows me to edit the desired task and save it.
+  As a user, I want to be able to modify tasks. When I click on the "Edit" button associated with a task, I expect to be able to edit this task. The popup box allows me to edit the desired task and save it.
 
 - ### Display the total number of tasks
+
   ![Edit Task Feature](./readme-images/counter.png)
-- As a user, I want to know the total number of tasks in my list. I expect the number of tasks to be displayer prominently on the page. The counter should be automatically updated whenever I add or remove tasks.
+  As a user, I want to know the total number of tasks in my list. I expect the number of tasks to be displayer prominently on the page. The counter should be automatically updated whenever I add or remove tasks.
 
 - ### Lock the number of tasks to 13
   ![Max Task Feature](./readme-images/max.png)
-- As a user, I want to be sure that my task list remains managable and doesn't become overwhelming. I also expect the tasks to not shoot through the designed list. If I attempt to add the 14th task, I should receive a clear indication that the maximum limit has been reached.
+  As a user, I want to be sure that my task list remains managable and doesn't become overwhelming. I also expect the tasks to not shoot through the designed list. If I attempt to add the 14th task, I should receive a clear indication that the maximum limit has been reached.
 
 ## Languages:
 
